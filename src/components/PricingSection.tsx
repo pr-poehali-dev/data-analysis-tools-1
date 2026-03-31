@@ -5,48 +5,48 @@ import { motion } from "framer-motion"
 export function PricingSection() {
   const plans = [
     {
-      name: "Старт",
-      price: "250 000 ₽",
-      period: "за проект",
-      description: "Идеально для агентств, которые хотят попробовать конверсионный дизайн.",
+      name: "Basic",
+      price: "$97",
+      period: "one-time",
+      description: "Perfect for those who want to start their weight loss journey at their own pace.",
       features: [
-        "Дизайн одной страницы",
-        "Адаптивная верстка",
-        "2 раунда правок",
-        "Срок — 1 неделя",
-        "Базовая SEO-оптимизация",
+        "Full access to all 4 modules",
+        "20+ video lessons",
+        "PDF meal guides & recipes",
+        "Progress tracking worksheets",
+        "Lifetime access",
       ],
     },
     {
-      name: "Профи",
-      price: "750 000 ₽",
-      period: "за проект",
-      description: "Для агентств, готовых масштабироваться с комплексными веб-решениями.",
+      name: "Premium",
+      price: "$197",
+      period: "one-time",
+      description: "The complete experience — everything in Basic plus personal support and live sessions.",
       features: [
-        "Многостраничный сайт (до 10 страниц)",
-        "Собственная дизайн-система",
-        "Неограниченные правки",
-        "Срок — 2 недели",
-        "Продвинутый SEO и аналитика",
-        "Интеграция CMS",
-        "30 дней поддержки после запуска",
+        "Everything in Basic",
+        "2 live Q&A sessions per month",
+        "Private community access",
+        "Weekly check-in templates",
+        "Personalized meal plan review",
+        "Priority email support",
+        "Bonus: Sleep & stress module",
       ],
       featured: true,
     },
     {
-      name: "Бизнес",
-      price: "По запросу",
-      period: "свяжитесь с нами",
-      description: "Для агентств с потребностью в white-label решениях и постоянном партнерстве.",
+      name: "VIP Coaching",
+      price: "$497",
+      period: "one-time",
+      description: "For those who want full 1-on-1 guidance and the fastest path to results.",
       features: [
-        "Неограниченные страницы",
-        "White-label решения",
-        "Персональный менеджер",
-        "Приоритетная поддержка",
-        "Кастомные интеграции",
-        "Постоянное обслуживание",
-        "Мониторинг производительности",
-        "Ежемесячные стратегические созвоны",
+        "Everything in Premium",
+        "4 private coaching calls",
+        "Custom nutrition plan",
+        "Custom workout plan",
+        "WhatsApp support access",
+        "Body composition analysis",
+        "90-day success guarantee",
+        "Unlimited course access",
       ],
     },
   ]
@@ -62,7 +62,7 @@ export function PricingSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-4xl md:text-5xl font-bold mb-4"
           >
-            Прозрачные цены
+            Choose your plan
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -71,7 +71,7 @@ export function PricingSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Выберите план под задачи вашего агентства. Все планы включают наш подход к конверсиям.
+            One-time payment. Lifetime access. Start losing weight today.
           </motion.p>
         </div>
 
@@ -88,7 +88,7 @@ export function PricingSection() {
               }`}
             >
               {plan.featured && (
-                <div className="text-xs font-bold text-primary uppercase tracking-wider mb-4">Популярный</div>
+                <div className="text-xs font-bold text-primary uppercase tracking-wider mb-4">Most Popular</div>
               )}
               <h3 className="font-serif text-2xl font-bold mb-2">{plan.name}</h3>
               <div className="mb-4">
@@ -97,7 +97,7 @@ export function PricingSection() {
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed">{plan.description}</p>
               <Button stretch className="mb-6 rounded-full">
-                Начать
+                Get Started
               </Button>
               <div className="space-y-3">
                 {plan.features.map((feature, featureIndex) => (

@@ -8,61 +8,51 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">P</span>
+                <span className="text-white font-bold text-lg">S</span>
               </div>
-              <span className="font-serif text-xl font-bold">Prism</span>
+              <span className="font-serif text-xl font-bold">SlimFlow</span>
             </div>
             <p className="text-muted-foreground leading-relaxed max-w-md">
-              Конверсионные сайты для агентств, которые растут. Превращаем каждый визит в рост вместе с партнером,
-              который инвестирует в ваш успех.
+              A science-backed online weight loss course for people worldwide. Lose weight the smart way — with video lessons, expert guides, and real support.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Навигация</h3>
+            <h3 className="font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#services" className="text-muted-foreground hover:text-primary transition-colors">
-                  Услуги
+                <a href="#modules" className="text-muted-foreground hover:text-primary transition-colors">
+                  Modules
                 </a>
               </li>
               <li>
                 <a href="#process" className="text-muted-foreground hover:text-primary transition-colors">
-                  Процесс
+                  How it works
                 </a>
               </li>
               <li>
                 <a href="#pricing" className="text-muted-foreground hover:text-primary transition-colors">
-                  Цены
+                  Pricing
                 </a>
               </li>
               <li>
                 <a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors">
-                  Отзывы
+                  Results
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Контакты</h3>
+            <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:hello@example.com"
+                  href="mailto:hello@slimflow.com"
                   className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  hello@example.com
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:+74951234567"
-                  className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <Phone className="w-4 h-4" />
-                  +7 (495) 123-45-67
+                  hello@slimflow.com
                 </a>
               </li>
             </ul>
@@ -71,7 +61,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            {new Date().getFullYear()} Prism Creative. Все права защищены.
+            {new Date().getFullYear()} SlimFlow. All rights reserved.
           </p>
 
           <div className="flex items-center gap-4">

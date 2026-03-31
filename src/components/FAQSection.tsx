@@ -7,34 +7,34 @@ export function FAQSection() {
 
   const faqs = [
     {
-      question: "Каковы типичные сроки проекта?",
+      question: "Do I need any prior experience or equipment?",
       answer:
-        "Большинство проектов занимают от 2 до 4 недель от старта до запуска, в зависимости от объема. Мы предоставляем детальные сроки на этапе анализа и держим вас в курсе на протяжении всего процесса.",
+        "None at all. SlimFlow is designed for complete beginners. The workouts can be done at home with no equipment. All you need is motivation and 20–30 minutes a day.",
     },
     {
-      question: "Вы предлагаете white-label услуги?",
+      question: "How quickly will I see results?",
       answer:
-        "Да! Наш план «Бизнес» включает white-label решения, где мы работаем за кулисами как продолжение вашего агентства. Ваши клиенты видят только ваш бренд.",
+        "Most students notice changes within the first 2–3 weeks — improved energy, better sleep, and visible body changes. Significant weight loss typically shows by week 4–6.",
     },
     {
-      question: "Что если мне нужны правки после запуска?",
+      question: "Is this a diet program?",
       answer:
-        "Все наши планы включают пост-запусковую поддержку. План «Профи» включает 30 дней поддержки, а клиенты «Бизнес» получают постоянное обслуживание и обновления.",
+        "No crash diets here. SlimFlow teaches you how to eat in a way that's flexible, satisfying, and sustainable. You'll never feel starved or deprived.",
     },
     {
-      question: "Можете ли вы работать с нашим текущим стеком?",
+      question: "What if I have a medical condition?",
       answer:
-        "Безусловно. Мы имеем опыт работы со всеми основными платформами и фреймворками. На этапе анализа мы оценим вашу текущую инфраструктуру и предложим лучший подход к интеграции.",
+        "We always recommend consulting your doctor before starting any new health program. SlimFlow's guidelines are science-backed and safe, but personal health always comes first.",
     },
     {
-      question: "Как вы обеспечиваете высокую конверсию?",
+      question: "How long do I have access to the course?",
       answer:
-        "Мы используем принципы дизайна на основе данных, A/B-тестирование и проверенные техники оптимизации конверсии. Каждое решение подкреплено исследованиями и лучшими практиками из тысяч успешных проектов.",
+        "Lifetime access. Once you enroll, all materials — including future updates — are yours forever. Learn at your own pace, revisit any lesson any time.",
     },
     {
-      question: "Что включает постоянная поддержка?",
+      question: "Is there a money-back guarantee?",
       answer:
-        "Постоянная поддержка включает исправление ошибок, обновления безопасности, мониторинг производительности, обновление контента и ежемесячные стратегические созвоны для обеспечения максимальной эффективности сайта.",
+        "Yes! VIP Coaching includes a 90-day success guarantee. If you follow the program and don't see results, we'll refund you — no questions asked.",
     },
   ]
 
@@ -49,7 +49,7 @@ export function FAQSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-4xl md:text-5xl font-bold mb-4"
           >
-            Частые вопросы
+            Frequently asked questions
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export function FAQSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground"
           >
-            Все, что нужно знать о работе с Prism.
+            Everything you need to know before joining SlimFlow.
           </motion.p>
         </div>
 

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/3d-button"
-import { Handshake } from "lucide-react"
+import Icon from "@/components/ui/icon"
 import { motion } from "framer-motion"
 
 export function Hero() {
@@ -14,11 +14,11 @@ export function Hero() {
         >
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground" />
-            {"1 000+ проектов"}
+            {"3 000+ students worldwide"}
           </span>
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground" />
-            {"20+ лет опыта"}
+            {"Science-backed approach"}
           </span>
         </motion.div>
 
@@ -28,15 +28,15 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="font-serif text-4xl md:text-6xl lg:text-7xl font-normal text-center leading-[1.1] mb-6 text-balance"
         >
-          Конверсионные сайты{" "}
+          Lose weight{" "}
           <span className="inline-flex items-center gap-3">
-            для
-            <span className="inline-flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-full text-[rgba(192,12,12,0.22)] bg-[rgba(10,10,10,0.14673913043478262)]">
-              <Handshake className="w-5 h-5 md:w-7 md:h-7 text-[rgba(255,117,38,1)]" />
+            the
+            <span className="inline-flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-full bg-[rgba(10,10,10,0.10)]">
+              <Icon name="Flame" size={28} className="text-[rgba(255,117,38,1)]" />
             </span>
-            агентств,
+            smart
           </span>{" "}
-          которые растут.
+          way — for good.
         </motion.h1>
 
         <motion.p
@@ -45,18 +45,31 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed"
         >
-          Превращаем каждый визит в рост — станьте партнером команды, которая инвестирует в ваш успех.
+          A structured, proven online course combining video lessons and expert guides to help you reach your ideal weight — without diets or burnout.
         </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="flex justify-center"
+          className="flex justify-center mb-16"
         >
           <Button size="lg" className="rounded-full px-8 text-base">
-            Записаться на звонок
+            Start Your Journey
           </Button>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 1 }}
+          className="rounded-3xl overflow-hidden shadow-2xl max-h-[480px]"
+        >
+          <img
+            src="https://cdn.poehali.dev/projects/ccf0c714-7da4-4874-b720-6c340cb6a1fd/files/e6900311-3d58-4908-afa6-a737c064cc33.jpg"
+            alt="SlimFlow — Weight Loss Course"
+            className="w-full h-full object-cover"
+          />
         </motion.div>
       </div>
     </section>

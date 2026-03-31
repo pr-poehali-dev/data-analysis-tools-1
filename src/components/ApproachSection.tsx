@@ -4,33 +4,33 @@ export function ApproachSection() {
   const steps = [
     {
       number: "01",
-      title: "Анализ и стратегия",
+      title: "Enroll & Get Instant Access",
       description:
-        "Мы глубоко погружаемся в цели вашего агентства, целевую аудиторию и конкурентную среду, чтобы разработать стратегию, направленную на конверсии и рост.",
+        "Sign up and immediately unlock all course materials — videos, PDF guides, meal plans, and the private community. No waiting.",
     },
     {
       number: "02",
-      title: "Дизайн и прототипы",
+      title: "Start with Nutrition",
       description:
-        "Наша команда создает впечатляющий дизайн, ориентированный на пользователя и конверсии. Мы прототипируем ключевые взаимодействия и собираем обратную связь.",
+        "Begin with Module 1: understand how your body uses food and build a simple, flexible meal strategy that fits your lifestyle.",
     },
     {
       number: "03",
-      title: "Разработка и интеграции",
+      title: "Add Movement",
       description:
-        "Мы создаем масштабируемые и производительные сайты на современных технологиях. Любые интеграции — от CRM до аналитики — работают бесшовно.",
+        "Follow our beginner-friendly workout videos. No gym required — 20–30 minutes a day is enough to see results.",
     },
     {
       number: "04",
-      title: "Тестирование и оптимизация",
+      title: "Train Your Mindset",
       description:
-        "Тщательное тестирование на всех устройствах и браузерах гарантирует безупречную работу. Мы оптимизируем каждый элемент для скорости, доступности и конверсий.",
+        "Learn the habits and mental frameworks that make weight loss stick. Tackle cravings, emotional eating, and plateaus.",
     },
     {
       number: "05",
-      title: "Запуск и поддержка",
+      title: "Track & Celebrate Results",
       description:
-        "Мы не просто запускаем и уходим. Наша постоянная поддержка гарантирует, что ваш сайт продолжит развиваться и приносить результаты вместе с ростом агентства.",
+        "Use our progress tools to see how far you've come. Most students notice a real change within the first 2–3 weeks.",
     },
   ]
 
@@ -45,7 +45,7 @@ export function ApproachSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-5xl md:text-6xl mb-6 text-balance"
           >
-            Наш подход
+            How it works
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -54,7 +54,7 @@ export function ApproachSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Проверенный процесс, который превращает вашу идею в конверсионный цифровой опыт
+            A simple, step-by-step journey from day one to your goal weight.
           </motion.p>
         </div>
 

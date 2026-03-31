@@ -11,8 +11,8 @@ export function StatsSection() {
           transition={{ duration: 0.8 }}
           className="font-serif text-4xl md:text-5xl lg:text-6xl text-center mb-16 leading-tight text-balance"
         >
-          <span className="text-accent">Повышаем конверсии</span>, масштабируем агентства и{" "}
-          <span className="text-accent">трансформируем рост</span>. Давайте строить ваш успех вместе.
+          <span className="text-accent">Real results</span>, real people — and a method that{" "}
+          <span className="text-accent">actually works</span> long-term.
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -24,12 +24,12 @@ export function StatsSection() {
             className="border-2 border-dashed border-border rounded-3xl p-8 text-center"
           >
             <div className="mb-4">
-              <span className="font-serif text-7xl md:text-8xl font-bold">1 000</span>
+              <span className="font-serif text-7xl md:text-8xl font-bold">3 000</span>
               <span className="text-accent text-5xl md:text-6xl font-serif font-bold">+</span>
             </div>
-            <h3 className="font-serif text-2xl font-semibold mb-4">Проектов выполнено</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">Students Worldwide</h3>
             <p className="text-muted-foreground font-sans leading-relaxed">
-              Мы успешно завершили более 1 000 конверсионных сайтов — и это только начало!
+              People from 40+ countries have transformed their bodies and habits with SlimFlow.
             </p>
           </motion.div>
 
@@ -41,12 +41,12 @@ export function StatsSection() {
             className="border-2 border-dashed border-border rounded-3xl p-8 text-center"
           >
             <div className="mb-4">
-              <span className="font-serif text-7xl md:text-8xl font-bold">85</span>
+              <span className="font-serif text-7xl md:text-8xl font-bold">92</span>
               <span className="text-accent text-5xl md:text-6xl font-serif font-bold">%</span>
             </div>
-            <h3 className="font-serif text-2xl font-semibold mb-4">Рост конверсии</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">Success Rate</h3>
             <p className="text-muted-foreground font-sans leading-relaxed">
-              Наши стратегии помогли агентствам достичь роста конверсии до 85% всего за один год!
+              92% of students who complete the course report lasting weight loss after 3 months.
             </p>
           </motion.div>
 
@@ -58,12 +58,12 @@ export function StatsSection() {
             className="border-2 border-dashed border-border rounded-3xl p-8 text-center"
           >
             <div className="mb-4">
-              <span className="font-serif text-7xl md:text-8xl font-bold">500</span>
-              <span className="text-accent text-5xl md:text-6xl font-serif font-bold">+</span>
+              <span className="font-serif text-7xl md:text-8xl font-bold">8</span>
+              <span className="text-accent text-5xl md:text-6xl font-serif font-bold">kg</span>
             </div>
-            <h3 className="font-serif text-2xl font-semibold mb-4">Агентств-партнеров</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">Average Lost</h3>
             <p className="text-muted-foreground font-sans leading-relaxed">
-              Более 500 агентств доверяют нам создание сайтов, которые приносят реальный рост бизнеса.
+              Students lose an average of 8 kg in the first 8 weeks — safely and sustainably.
             </p>
           </motion.div>
         </div>
